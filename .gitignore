@@ -1,7 +1,25 @@
-node_modules/
-.expo/
-dist/
-*.sqlite
-.env
-package-lock.json
+# OS
 .DS_Store
+Thumbs.db
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/app.db
+backend/token.json
+backend/credentials.json
+backend/uploads/
+backend/chroma_db/
+.env
+*.env
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+
+# Git
+.git/
